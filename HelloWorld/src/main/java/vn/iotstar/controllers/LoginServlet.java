@@ -49,7 +49,7 @@ public class LoginServlet extends HttpServlet {
 
 		String user = request.getParameter("username");
 		String pass = request.getParameter("password");
-		if (user.equals("Luuloneranger") && pass.equals("123")) {
+		if (user.equals("Bao") && pass.equals("123")) {
 			Cookie cookie = new Cookie("username", user);
 			cookie.setMaxAge(30);
 
@@ -64,3 +64,4 @@ public class LoginServlet extends HttpServlet {
 	}
 
 }
+
